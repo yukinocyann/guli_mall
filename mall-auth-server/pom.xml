@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>guli-mall</artifactId>
-        <groupId>com.zsy</groupId>
+        <groupId>com.yukino</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>mall-auth-server</artifactId>
@@ -13,7 +13,7 @@
     <description>认证服务（社交登录、Oauth2.0、单点登录）</description>
     <dependencies>
         <dependency>
-            <groupId>com.zsy</groupId>
+            <groupId>com.yukino</groupId>
             <artifactId>mall-common</artifactId>
             <exclusions>
                 <exclusion>

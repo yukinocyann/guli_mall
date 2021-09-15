@@ -1,4 +1,4 @@
-package com.zsy.sso.client;
+package com.yukino.sso.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.zsy.sso.server;
+package com.yukino.sso.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

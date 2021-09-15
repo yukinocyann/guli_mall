@@ -4,6 +4,9 @@ HELP.md
 !**/src/test/**/target/
 **/target/
 **/log*/
+**/mvnw
+**/mvnw.cmd
+**/.mvn
 
 ### STS ###
 .apt_generated

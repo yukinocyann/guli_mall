@@ -1,4 +1,4 @@
-package com.zsy.sso.client.controller;
+package com.yukino.sso.client.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

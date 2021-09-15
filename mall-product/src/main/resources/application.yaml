@@ -1,21 +1,23 @@
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application:
     name: mall-product
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://192.168.163.131:3306/mall_pms
+    url: jdbc:mysql://192.168.56.10:3306/gulimall_pms
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.163.131:8848
+        server-addr: 192.168.1.8:8848
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
   thymeleaf:
     cache: false
   redis:
-    host: 192.168.163.131
+    host: 192.168.56.10
     port: 6379
 
 mybatis-plus:
@@ -30,4 +32,4 @@ server:
   port: 10000
 logging:
   level:
-    com.zsy: debug
+    com.yukino: debug

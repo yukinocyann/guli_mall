@@ -9,7 +9,7 @@
 	<description>renren-fast</description>
 
 	<parent>
-		<groupId>com.zsy</groupId>
+		<groupId>com.yukino</groupId>
 		<artifactId>guli-mall</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -51,7 +51,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.zsy</groupId>
+			<groupId>com.yukino</groupId>
 			<artifactId>mall-common</artifactId>
 		</dependency>
 		<dependency>

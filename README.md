@@ -4,7 +4,7 @@
 
 环境配置参考：https://www.yuque.com/zhangshuaiyin/guli-mall/lb4zw1
 
-![image-20210405175658877](https://gitee.com/zsy0216/typora-image/raw/master/typora/image-20210405175658877.png)
+![image-20210405175658877](https://gitee.com/yukino0216/typora-image/raw/master/typora/image-20210405175658877.png)
 
 | 软件名        | 版本号 | 描述                   |
 | ------------- | ------ | ---------------------- |
@@ -36,9 +36,9 @@
 C:\Windows\System32\drivers\etc\hosts 文件
 ```text
 # guli mall #
-192.168.163.131		gulimall.com
-192.168.163.131		search.gulimall.com
-192.168.163.131		item.gulimall.com
-192.168.163.131		auth.gulimall.com
-192.168.163.131		cart.gulimall.com
+192.168.1.8		gulimall.com
+192.168.1.8		search.gulimall.com
+192.168.1.8		item.gulimall.com
+192.168.1.8		auth.gulimall.com
+192.168.1.8		cart.gulimall.com
 ```

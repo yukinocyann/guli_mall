@@ -4,11 +4,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.163.131:8848
+        server-addr: 192.168.1.8:8848
     gateway:
       routes:
         #Query A 参数有A就行，Query B,C 参数B的值为C即可
-        #实现针对于“http://localhost:88/zsy0216?url=baidu”，转发到“https://www.github.com/zsy0216”，
+        #实现针对于“http://localhost:88/yukino0216?url=baidu”，转发到“https://www.github.com/yukino0216”，
         #- id: github_route
         #  uri: https://www.github.com
         #  predicates:

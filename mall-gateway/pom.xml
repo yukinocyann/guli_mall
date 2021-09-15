@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>guli-mall</artifactId>
-        <groupId>com.zsy</groupId>
+        <groupId>com.yukino</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -15,7 +15,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.zsy</groupId>
+            <groupId>com.yukino</groupId>
             <artifactId>mall-common</artifactId>
             <exclusions>
                 <exclusion>

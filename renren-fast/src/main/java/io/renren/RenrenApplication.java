@@ -14,7 +14,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
 /**
- * @author ZSY
+ * @author yukino
  */
 @EnableDiscoveryClient
 @SpringBootApplication

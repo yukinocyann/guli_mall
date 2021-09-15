@@ -1,4 +1,4 @@
-package com.zsy.sso.server.controller;
+package com.yukino.sso.server.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
