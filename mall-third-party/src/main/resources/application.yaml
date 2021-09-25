@@ -13,7 +13,7 @@ spring:
       access-key:
       secret-key:
       oss:
-        endpoint: oss-cn-shenzhen.aliyuncs.com
+        endpoint:
         bucket: gulimall-yukino
   application:
     name: mall-third-party
