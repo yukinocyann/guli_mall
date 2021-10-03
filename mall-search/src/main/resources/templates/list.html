@@ -2026,9 +2026,14 @@
     location.href = replaceParamVal(location.href, name, value, true)
   }
 
+  function searchProductsByKeyword(name, value) {
+    //原來的页面
+    location.href = replaceParamVal(location.href, name, value, false)
+  }
+
 
   function searchByKeyword() {
-    searchProducts("keyword", $("#keyword_input").val());
+    searchProductsByKeyword("keyword", $("#keyword_input").val());
   }
 
   $(".page_a").click(function () {

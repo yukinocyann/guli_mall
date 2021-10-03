@@ -228,7 +228,7 @@ public class MallSearchServiceImpl implements MallSearchService {
                 } catch (UnsupportedEncodingException e) {
                     e.printStackTrace();
                 }
-                String replace = param.get_queryString().replace("&attrs=" + attr, "");
+                String replace = param.get_queryString().replace("&attrs=" + encode, "");
                 navVo.setLink("http://search.gulimall.com/list.html?" + replace);
 
                 return navVo;
