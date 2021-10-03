@@ -27,6 +27,7 @@ import org.springframework.util.StringUtils;
 
 import java.math.BigDecimal;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 /**
@@ -136,6 +137,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
             log.error("远程保存spu积分信息失败");
         }
 
+        AtomicInteger i = new AtomicInteger(0);
         //5、保存当前spu对应的所有sku信息；
         List<Skus> skus = vo.getSkus();
         if (skus != null && skus.size() > 0) {
@@ -156,7 +158,11 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
                 skuInfoEntity.setCatalogId(infoEntity.getCatalogId());
                 skuInfoEntity.setSaleCount(0L);
                 skuInfoEntity.setSpuId(infoEntity.getId());
-                skuInfoEntity.setSkuDefaultImg(defaultImg);
+                skuInfoEntity.setSkuDefaultImg(decript.get(i.get()));
+                if(i.get() > decript.size()-1){
+                    i.getAndDecrement();
+                }
+                i.getAndIncrement();
                 //5.1）、sku的基本信息；pms_sku_info
                 skuInfoService.saveSkuInfo(skuInfoEntity);
 
