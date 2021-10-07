@@ -1,10 +1,10 @@
-个人学习文档：https://www.yuque.com/zhangshuaiyin/guli-mall
+学习文档：https://www.yuque.com/zhangshuaiyin/guli-mall
 
 # 环境信息
 
 环境配置参考：https://www.yuque.com/zhangshuaiyin/guli-mall/lb4zw1
 
-![image-20210405175658877](https://gitee.com/yukino0216/typora-image/raw/master/typora/image-20210405175658877.png)
+
 
 | 软件名        | 版本号 | 描述                   |
 | ------------- | ------ | ---------------------- |
